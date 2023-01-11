@@ -1,16 +1,16 @@
 import { Button } from "react-bootstrap";
 import DynamicForm from "./components/DynamicForm";
-import Introduction from "./components/Introduccion";
-import NavbarMenu from "./components/NavbarMenu"
+import Introduction from "./components/Introduccion/Introduction";
+import NavbarMenu from "./components/NavbarMenu";
 import Services from "./components/Services";
 
 function App() {
   return (
     <div>
       <NavbarMenu />
-      <Introduction/>
+      <Introduction />
       <Services />
-      <DynamicForm/>
+      <DynamicForm />
     </div>
   );
 }
